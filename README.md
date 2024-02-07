@@ -1,4 +1,4 @@
-# gpt-debian12
+# gpt-debian12 ( Quick Setup of your own ChatGPT)
 Empower Your Organization with an Offline, On-Prem Conversational AI with Setup of ollama &amp;  ollama-webui 
 
 # Required Minimum System Specifications (Physical or VM)
