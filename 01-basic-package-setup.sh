@@ -54,7 +54,7 @@ echo "export LANGUAGE=en_US.UTF-8" >> /etc/bash.bashrc
 ## create with default IPV6 disabled
 touch /etc/rc.local
 #printf '%s\n' '#!/bin/bash'  | tee -a /etc/rc.local 1>/dev/null
-echo '#!/bin/bash'  > /etc/rc.local 1>/dev/null
+echo "#!/bin/bash"  > /etc/rc.local
 echo "sysctl -w net.ipv6.conf.all.disable_ipv6=1" >>/etc/rc.local
 echo "sysctl -w net.ipv6.conf.default.disable_ipv6=1" >> /etc/rc.local
 echo "/opt/ollama-webui/backend/start-main.sh" >> /etc/rc.local
