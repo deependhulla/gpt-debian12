@@ -34,7 +34,7 @@ echo "deb-src http://deb.debian.org/debian/ bookworm-updates main non-free-firmw
 
 apt update
 
-apt -y install vim unzip elinks git curl net-tools python3-pip uvicorn python3 python3-venv npm ca-certificates 
+apt -y install vim unzip elinks git sqlite3 curl net-tools python3-pip uvicorn python3 python3-venv npm ca-certificates 
 ## centos like bash ..for all inteactive 
 echo "" >> /etc/bash.bashrc
 echo "alias cp='cp -i'" >> /etc/bash.bashrc

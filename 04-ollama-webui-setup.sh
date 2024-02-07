@@ -23,7 +23,7 @@ echo "Around 5.6GB ..will take few more min..."
 pip install -q wheel -U
 pip install -q -r requirements.txt -U 2>/dev/null
 /opt/ollama-webui/backend/start-main.sh
-
+echo "Log in /var/log/ollama-webui.log"
 echo "Done ready to use access via http://<IP_ADDRESS>:8080/"
 #or use bun
 #/root/.bun/bin/bun
