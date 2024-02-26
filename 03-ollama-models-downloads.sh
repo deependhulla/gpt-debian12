@@ -13,5 +13,5 @@ ollama pull mistral
 echo "Pulling model : codellama"
 ollama pull codellama
 
-echo "Download all Modules now install webui and explore them."
+echo "Downloaded all Modules, now install webui and explore them."
 
