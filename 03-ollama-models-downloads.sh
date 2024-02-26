@@ -13,5 +13,10 @@ ollama pull mistral
 echo "Pulling model : codellama"
 ollama pull codellama
 
+#echo "Pulling model : gemma:2b"
+#ollama pull gemma:2b
+#echo "Pulling model : gemma:7b"
+#ollama pull gemma:7b
+
 echo "Downloaded all Modules, now install webui and explore them."
 
