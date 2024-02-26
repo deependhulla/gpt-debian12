@@ -1,6 +1,7 @@
 #!/bin/bash
 
-curl https://ollama.ai/install.sh | sh
+#curl https://ollama.ai/install.sh | sh
+curl https://ollama.com/install.sh | sh
 
 echo "-----------------------------";
 echo "Checking Ollama Version .."
