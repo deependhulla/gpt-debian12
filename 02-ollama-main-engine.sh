@@ -9,5 +9,6 @@ echo "If you encounter a \"Segmentation fault\", "
 echo "it likely means that you are not using the latest CPU, "
 echo "or the virtual CPU does not have access to all the instructions of the main CPU"
 echo "-----------------------------";
+sleep 5
 ollama -v
 echo "-----------------------------";
